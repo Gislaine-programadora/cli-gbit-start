@@ -1,4 +1,28 @@
-<img width="516" height="159" alt="image" src="https://github.com/user-attachments/assets/6236a75b-5f60-4d53-9ec6-56eb9377bf63" />
+<div align="center">
+
+<img width="516" height="159" alt="GBIT START" src="https://github.com/user-attachments/assets/6236a75b-5f60-4d53-9ec6-56eb9377bf63" />
+
+# 🚀 GBIT START
+
+### Open any project in seconds
+
+**Version:** `1.0.0`
+
+<p>
+
+<img src="https://img.shields.io/badge/Node.js-24.x-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Next.js-15-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+<img src="https://img.shields.io/badge/NPM-11-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=000000" />
+
+</p>
+
+Create professional **Next.js** applications with ready-to-use templates for **Dashboard, SaaS, CRM, ERP, E-commerce** and Showcase.
+
+</div>
+
+---
 
 
 

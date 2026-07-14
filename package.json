@@ -1,0 +1,24 @@
+{
+  "name": "gbit-start",
+  "version": "1.0.0",
+  "description": "Abre qualquer projeto existente: instala dependências, resolve conflitos de versão e entrega a URL pronta pra visualizar.",
+  "type": "module",
+  "bin": {
+    "gbit-start": "./bin/gbit-start.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "figlet": "^1.7.0",
+    "gradient-string": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Gislaine-programadora",
+  "license": "MIT"
+}

@@ -18,7 +18,7 @@
 
 </p>
 
-Create professional **Next.js** applications with ready-to-use templates for **Dashboard, SaaS, CRM, ERP, E-commerce** and Showcase.
+
 
 </div>
 

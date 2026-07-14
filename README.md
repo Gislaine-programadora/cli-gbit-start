@@ -124,6 +124,11 @@ gbit-start
 
 
 
+<img width="1254" height="657" alt="image" src="https://github.com/user-attachments/assets/35af29e1-4d30-4c49-830a-78fadef782ba" />
+
+
+
+
 
 
 ## 📄 Licença

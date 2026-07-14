@@ -59,6 +59,7 @@ gbit-start https://github.com/usuario/algum-projeto.git
 gbit-start ../outro-projeto
 ```
 
+
 ## ⚙️ O que ele faz, passo a passo
 
 1. **Localiza o projeto** — usa a pasta atual, clona um repositório (se você passar um link), ou aponta pra um caminho local
@@ -66,9 +67,13 @@ gbit-start ../outro-projeto
    - `npm install`
    - `npm install --legacy-peer-deps` (se a primeira falhar)
    - `npm install --force` (última tentativa)
+   - `npm run dev`
+
+      
 3. **Descobre sozinho o comando certo**, lendo o `package.json` e procurando (nessa ordem): `dev` → `start` → `serve`
 4. **Roda o projeto** e fica de olho na saída do terminal até encontrar a URL local (`http://localhost:...`)
 5. **Mostra tudo pronto** com confete colorido e a URL destacada numa caixinha
+
 
 ## 🌐 Funciona com qualquer stack
 
@@ -77,6 +82,8 @@ gbit-start ../outro-projeto
 | Next.js, React (Vite/CRA), Node/Express | Detecta o `package.json`, instala e roda o script certo automaticamente |
 | HTML puro (sem `package.json`) | Detecta o `index.html` e sobe um servidor estático na hora, com `npx serve` |
 | Nenhum dos dois | Mostra um erro claro explicando o que faltou |
+
+
 
 ## 📦 Instalação
 
@@ -90,6 +97,8 @@ Ou, se preferir instalar globalmente:
 npm install -g gbit-start
 gbit-start
 ```
+
+
 
 ## 🛠️ Tecnologias
 
@@ -111,6 +120,10 @@ gbit-start
 | [`gbit-next`](https://github.com/Gislaine-programadora) | Cria projetos Next.js prontos, com templates completos |
 | [`create-gbit-app`](https://github.com/Gislaine-programadora) | Projetos fullstack completos (Backend + Frontend Vite/TS + Smart Contracts) |
 | [`gbit-start`](https://github.com/Gislaine-programadora) | Este CLI — abre qualquer projeto existente |
+
+
+
+
 
 ## 📄 Licença
 

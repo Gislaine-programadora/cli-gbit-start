@@ -34,8 +34,10 @@
 
 Instala dependências, resolve conflitos de versão automaticamente e entrega a URL pronta pra visualizar — sem você precisar descobrir qual comando rodar.
 
-📦 [Pacote no NPM](https://www.npmjs.com/package/gbit-start) · 💻 [Repositório no GitHub](https://github.com/Gislaine-programadora)
+📦 ## 🔗 Links
 
+- 📦 [NPM Package](https://www.npmjs.com/package/gbit-start)
+- 💻 [GitHub Repository](https://github.com/gislaine-programadora/cli-gbit-start)
 </div>
 
 ---

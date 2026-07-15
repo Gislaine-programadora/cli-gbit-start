@@ -91,8 +91,7 @@ Em ambos os casos, o resultado é o mesmo: dependências instaladas, projeto rod
    - `npm install`
    - `npm install --legacy-peer-deps` (se a primeira falhar)
    - `npm install --force` (última tentativa)
-   - `npm run dev`
-   - `http://localhost:...`
+  
 
       
 3. **Descobre sozinho o comando certo**, lendo o `package.json` e procurando (nessa ordem): `dev` → `start` → `serve`

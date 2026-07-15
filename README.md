@@ -42,6 +42,64 @@ Instala dependências, resolve conflitos de versão automaticamente e entrega a 
   
 </div>
 
+
+## ⚡ What is GBIT START?
+
+GBIT START is a command-line tool that automates the entire project setup.
+
+With a single command it can:
+
+- 📥 Clone any GitHub repository
+- 📦 Install all dependencies automatically
+- 🚀 Start the development server
+- 🌐 Open the application in your default browser
+
+No manual setup required.
+
+
+
+
+## 🚀 Quick Start
+
+```bash
+npx gbit-start https://github.com/username/project
+```
+
+or
+
+```bash
+gbit-start https://github.com/username/project
+```
+
+
+
+
+## 🔄 Workflow
+
+1. Clone the repository
+2. Detect the package manager
+3. Install dependencies
+4. Run the development server
+5. Open the browser automatically
+
+
+
+
+ ## 🛠️ Built With
+
+- Node.js
+- Git
+- npm
+- Next.js
+- React
+- JavaScript
+- HTML
+- VITE
+- Typescript
+
+
+
+
 ---
 
 ## ✨ O que é

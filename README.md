@@ -34,6 +34,7 @@
 
 Instala dependências, resolve conflitos de versão automaticamente e entrega a URL pronta pra visualizar — sem você precisar descobrir qual comando rodar.
 
+
 📦 ## 🔗 Links
 
  📦 [NPM Package](https://www.npmjs.com/package/gbit-start)
@@ -108,11 +109,13 @@ Você clonou um repositório, baixou um projeto antigo, ou pegou um código de o
 
 O `gbit-start` resolve isso automaticamente. Aponte ele pra qualquer projeto e ele cuida do resto.
 
+
+
 ## 🚀 Uso
 
 ```bash
 # Dentro da pasta de um projeto já existente
-gbit-start
+npx gbit-start
 
 # Ou passando um link de repositório (ele clona pra você)
 gbit-start https://github.com/usuario/algum-projeto.git
@@ -121,9 +124,14 @@ gbit-start https://github.com/usuario/algum-projeto.git
 gbit-start ../outro-projeto
 ```
 
+
+
+
 ## 🎯 Dois modos, um comando só
 
 O `gbit-start` reconhece automaticamente o que você quer fazer, sem precisar de flags ou opções extras.
+
+
 
 ### 📂 Modo 1 — Abrir um projeto que você já tem
 
@@ -132,6 +140,9 @@ Rode dentro da pasta de um projeto existente (ou passe o caminho dele):
 ```bash
 npx gbit-start
 ```
+
+
+
 
 Ele instala as dependências, descobre o comando certo (`dev`, `start` ou `serve`) e entrega a URL pronta.
 
@@ -142,6 +153,8 @@ Passe o link do repositório, e o `gbit-start` clona, instala e roda tudo em seq
 ```bash
 gbit-start https://github.com/usuario/nome-do-repositorio.git
 ```
+
+
 
 Em ambos os casos, o resultado é o mesmo: dependências instaladas, projeto rodando, e a URL destacada numa caixinha com confete. 🎉
 
@@ -159,6 +172,8 @@ Em ambos os casos, o resultado é o mesmo: dependências instaladas, projeto rod
 3. **Descobre sozinho o comando certo**, lendo o `package.json` e procurando (nessa ordem): `dev` → `start` → `serve`
 4. **Roda o projeto** e fica de olho na saída do terminal até encontrar a URL local (`http://localhost:...`)
 5. **Mostra tudo pronto** com confete colorido e a URL destacada numa caixinha
+
+
 
 
 ## 🌐 Funciona com qualquer stack
@@ -193,11 +208,17 @@ gbit-start
 - [ora](https://www.npmjs.com/package/ora) — spinners de carregamento
 - [figlet](https://www.npmjs.com/package/figlet) + [gradient-string](https://www.npmjs.com/package/gradient-string) — logo ASCII colorido
 
+
+
+
 ## 🗺️ Roadmap
 
 - [ ] Suporte a Yarn e pnpm como alternativa ao npm
 - [ ] Detecção de porta ocupada e sugestão automática de porta livre
 - [ ] Modo silencioso (`--quiet`) sem o confete, pra uso em scripts/CI
+
+
+
 
 ## 🤝 Ecossistema Gbit
 
@@ -205,7 +226,7 @@ gbit-start
 |---|---|
 | [`gbit-next`](https://github.com/Gislaine-programadora) | Cria projetos Next.js prontos, com templates completos |
 | [`create-gbit-app`](https://github.com/Gislaine-programadora) | Projetos fullstack completos (Backend + Frontend Vite/TS + Smart Contracts) |
-| [`gbit-start`](https://github.com/Gislaine-programadora) | Este CLI — abre qualquer projeto existente |
+| [`gbit-start`](https://github.com/Gislaine-programadora) | Este CLI — abre qualquer projeto existente e clona  |
 
 
 

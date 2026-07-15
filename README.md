@@ -59,6 +59,30 @@ gbit-start https://github.com/usuario/algum-projeto.git
 gbit-start ../outro-projeto
 ```
 
+## 🎯 Dois modos, um comando só
+
+O `gbit-start` reconhece automaticamente o que você quer fazer, sem precisar de flags ou opções extras.
+
+### 📂 Modo 1 — Abrir um projeto que você já tem
+
+Rode dentro da pasta de um projeto existente (ou passe o caminho dele):
+
+```bash
+npx gbit-start
+```
+
+Ele instala as dependências, descobre o comando certo (`dev`, `start` ou `serve`) e entrega a URL pronta.
+
+### 🌐 Modo 2 — Clonar e abrir um repositório do GitHub
+
+Passe o link do repositório, e o `gbit-start` clona, instala e roda tudo em sequência — sem você precisar digitar `git clone`, entrar na pasta, ou lembrar qual comando usar:
+
+```bash
+gbit-start https://github.com/usuario/nome-do-repositorio.git
+```
+
+Em ambos os casos, o resultado é o mesmo: dependências instaladas, projeto rodando, e a URL destacada numa caixinha com confete. 🎉
+
 
 ## ⚙️ O que ele faz, passo a passo
 
